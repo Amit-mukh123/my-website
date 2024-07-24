@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <title>
+        MY WEB
+    </title>
+    <link rel="stylesheets" href="project.css">
+    <style>
+        body {
+            background-color: yellowgreen;
+        }
+
+        .logoname {
+            position: absolute;
+            left: 80px;
+            top: -40px;
+
+        }
+
+        p {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+        }
+
+        .list {
+            position: absolute;
+            left: 67rem;
+            top: 1rem;
+
+
+
+        }
+
+        #mylist {
+            list-style: none;
+
+
+        }
+
+        ul {
+            color: black;
+            display: inline;
+            font-size: 20px;
+        }
+
+        .search-box {
+            border: 2px solid blue;
+            border-radius: 10px;
+            position: absolute;
+            top: 1.5rem;
+            left: 38rem;
+            height: 2rem;
+            width: 20rem;
+            font-size: 20px;
+
+
+        }
+
+        .searchlogo {
+            border-radius: 9px;
+            position: absolute;
+            top: 1.5rem;
+            left: 56rem;
+        }
+
+        #plant-image{
+           display: flex;
+           margin-left: 16rem;
+           margin-top: 5rem;
+        }
+        #login-button{
+            display: flex;
+            margin-left: 25rem;
+            margin-top:5rem;
+        }
+       #register-button{
+            display: flex;
+            margin-left: 60rem;
+            margin-top:-3.5rem;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <img src="companylogo.png" height="50px">
+    <div class="logoname">
+        <b>
+            <p font="size:10px"> Green Line</p>
+        </b>
+    </div>
+    <div class="list">
+        <li id="mylist">
+            <ul id="home">Home</ul>
+            <ul id="about">About</ul>
+            <ul id="privacy">Privacy</ul>
+            <ul id="contact"> Contact us</ul>
+        </li>
+    </div>
+    <div id="search-div">
+        <input class="search-box" type="text" value="search" onclick="value=' '">
+    </div>
+    <div>
+        <a href="https://www.google.co.in/"> <img class="searchlogo" src="searchlogo.png" alt="error" height="30px"></a>
+    </div>
+    <div>
+
+    </div>
+<div id="plant-image">
+    <img src="plant trees.jpg" alt="error" height="500rem" width="1000rem">
+</div>
+
+<div id="login-button">
+    <img src="login-button.png" alt="error" height="50rem">
+</div>
+
+<div id="register-button">
+    <img src="register button.png" alt="error" height="50rem">
+</div>
+
+
+</body>
+<script src="project.js"></script>
+
+</html>
